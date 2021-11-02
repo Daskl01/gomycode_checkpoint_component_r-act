@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 0.8;
+  border-style: groove;
+}
+
+.title{
+  display: flex;
+
+}
+
+.name:hover{
+  color: black;
+}
+
+.name{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.nom{
+  margin-left: 10px;
+}
